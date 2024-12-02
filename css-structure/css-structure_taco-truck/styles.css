@@ -16,6 +16,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background: var(--body-bg);
+  color: aqua;
 }
 
 .header {
@@ -29,7 +30,6 @@ body {
 .header__title {
   margin: 0;
 }
-
 
 .main-content {
   background: var(--main-bg);
@@ -50,7 +50,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
- 
 }
 
 .card {
@@ -61,8 +60,9 @@ body {
   color: var(--card-text);
   padding: 20px;
   border-radius: 5px;
-  min-width: 300px; 
+  min-width: 300px;
   flex: 1 1 30%;
+  color: blueviolet;
 }
 
 .card__title {
